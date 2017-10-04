@@ -1,0 +1,38 @@
+
+/* For Large devices: */
+@media only screen and (max-width: 1200px) {    
+    [class*="col-lg-"] {
+        width: 100%;
+    }
+    .my-image img {
+	  width: 350px;
+	}
+	.personal-imformation p { line-height: 25px;}
+	.portfolio-overly {width: 51%;}
+
+
+
+}
+
+/* For Medium devices: */
+@media only screen and (max-width: 970px) {    
+    [class*="col-md-"] {
+        width: 100%;
+    }
+}
+
+/* For Tab: */
+@media only screen and (max-width: 768px) {
+    
+    [class*="col-sm-"] {
+        width: 100%;
+    }
+}
+
+/* For small mobile phones: */
+@media only screen and (max-width: 320px) {
+    
+    [class*="col-xs-"] {
+        width: 100%;
+    }
+}

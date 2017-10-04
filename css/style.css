@@ -1,0 +1,434 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a:hover { text-decoration: none; font-size: 16px; }
+
+body{
+	font-family: 'Roboto Slab', serif, sans-serif;
+}
+
+
+.section-padding{
+	padding: 60px 0;
+}
+
+
+.top-area {
+    background: #449d44 none repeat scroll 0 0;
+    line-height: 40px;
+    
+}
+
+.gmail {
+    float: left;
+    margin-right: 20px;
+}
+.gmail, .phone, .social-icon{
+	color: #e6e6e6;
+	font-size: 15px;
+	transition: .8s;
+}
+
+.gmail:hover, .phone:hover, .social-icon:hover{
+	color:#fff;
+	font-weight: normal
+}
+.social-icon a{
+	color:#fff;
+	text-decoration: 
+}
+.social-icon a i.fa {
+    margin-right: 10px;
+}
+.header-top-area {
+    background: #63bc63 none repeat scroll 0 0;
+}
+
+.header-top-area a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li.active{
+	background: #449D44;
+}
+li.smooth-menu:hover{
+	border: none;
+}
+
+li.smooth-menu a{
+	display: block; 
+}
+li.smooth-menu a:hover, li.smooth-menu a:focus, li.smooth-menu a:visited{
+  background: #449D44;    
+}
+
+
+.slider-area{
+	position: relative;
+}
+.parallax-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.slider-bg{
+	background-image: url(../images/slider-bg.jpg);
+}
+.slider-content {
+  padding: 100px 0;
+  margin-top: 30px;
+}
+
+.about-area{
+	background-image: url(../images/coloful-pattern.png);
+}
+
+
+.about-content {
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+.about-content p {
+  font-size: 14px;
+}
+
+.my-image {
+    margin-top: 20px;
+}
+.my-image img {
+  height: 350px;
+  width: 400px;
+}
+.personal-imformation h2 {
+  border-bottom: 2px solid #ddd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+
+.progress{
+    height: 40px;
+    background: #e1e1e1;
+    margin-bottom: 20px;
+    position: relative;
+}
+.progress .progress-bar{
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    background: #fff;
+    font-size: 14px;
+    color: #a2a6a9;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.progress .progressbar-title{
+    position: absolute;
+    bottom: 9px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+}
+@keyframes animate-positive{
+    0% { width: 0%; }
+}
+
+
+/*========================== isotope css  start ===========================================*/
+.isotop-area{}
+.iso-nav{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.iso-nav ul{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+.iso-nav ul li{
+	display: inline-block;
+	border:2px solid #63BC63;
+	padding: 10px 15px;
+	margin-right: 5px;
+	cursor: pointer;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.iso-nav ul li:hover{
+	background: #63BC63;
+	color: #fff;
+}
+.main-iso{}
+.item{
+	margin-bottom: 20px;
+	position: relative;
+}
+.item img{
+	width: 350px;
+	height: 300px;
+}
+.portoflio-content{
+	position: absolute;
+	background: transparent;
+	background: #ddd;
+}
+
+.active{
+	background: #63BC63;
+	color: #fff;
+}
+
+/*================================ isotope css end =======================================*/
+
+/* portfolio-overlay css  start*/
+
+.portfolio-img{
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio-overly{
+	background: #e5493a none repeat scroll 0 0;
+	height: 100%;
+	left: 0;
+	opacity: 0.7;
+	padding-top: 95px;
+	position: absolute;
+	top: -100%;
+	transition: all 0.4s ease 0s;
+	width: 100%;	
+}
+
+.portfolio-overly h2 {
+  color: #fff;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.portfolio-overly a.overlay-button {
+  background: #655653 none repeat scroll 0 0;
+  color: #d0d0d0;
+  padding: 7px 15px;
+}
+
+.portfolio-img:hover .portfolio-overly{
+	top:0;
+}
+
+/* portfolio-overlay css  end */
+
+
+
+/* service css start */
+
+
+.service a{
+	font-size:14px;
+	border:2px solid #63BC63;
+	color:#63BC63;
+	background:#fff;
+	text-transform:uppercase;
+	font-weight: 700;
+	padding: 10px 15px;
+	transition:.30s;
+}
+
+.service p {
+	font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.service a:hover{
+	background: #63bc63;
+	color: #fff;
+}
+
+/* service css end */
+
+
+
+
+
+
+
+
+
+
+/*** our-blog css start ***/
+#our-blog{
+	padding-bottom:130px;
+}
+.blog-top{
+	padding-bottom:60px;
+}
+.blog-iteam{
+	border-radius:0px !important;
+	margin:0px;
+}
+.blog-iteam-img{
+	position:relative;
+}
+.blog-figcaption{
+	position:absolute;
+	top:0;
+}
+.blog-figcaption a i{
+	font-size: 20px;
+	color: #fff;
+	background-color: #63BC63;
+	padding: 10px;
+}
+.blog-iteam-content{
+	padding:0px !important;
+	background:#f8f8f8;
+	margin-top:5px;
+}
+.blog-content-inner{
+	padding:0px 12px;
+}
+.blog-content-inner h3 a{
+	font-size:22px;
+	color:#181818;
+	text-decoration:none;
+	padding-top:20px;
+}
+.blog-content-inner h3 a:hover{
+	color:#63BC63;
+}
+.blog-content-inner p{
+	font-size:16px;
+	color:#707070;
+	padding-bottom:30px;
+}
+.blog-content-inner p a{
+	font-size:14px;
+	border-radius:0px;
+	border:2px solid #63BC63;
+	color:#63BC63;
+	background:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	transition:.30s;
+}
+.blog-content-inner p a:active, .blog-content-inner p a:focus, .blog-content-inner p a:visited{
+	border:2px solid #63BC63;
+	color:#63BC63;
+	background:#fff;
+}
+.blog-content-inner p a:hover{
+	background:#63BC63;
+	color:#fff;
+	border:2px solid #63BC63;
+}
+.meta-menu-blog li{
+	margin:3px 0px 10px 0px;
+	color:#9a9a9a;
+	font-size:14px;
+}
+.meta-menu-blog li a{
+	padding:0px;
+	padding-right:15px;
+	color:#9a9a9a;
+	font-size:14px;
+}
+.meta-menu-blog li a i{
+	padding-right:5px;
+}
+.meta-menu-blog li a:hover{
+	background:none;
+}
+/*** our-blog css end ***/
+
+
+.map_area iframe{
+	width: 520px;
+	height: 370px;
+}
+
+.contact-form label {
+  color: #696969;
+}
+h2.contact-title {
+    padding-bottom: 40px;
+}
+.contact-area {
+    margin-top: -55px;
+}
+
+
+
+.footer-area {
+    background: #63bc63 none repeat scroll 0 0;
+    line-height: 10px;
+    padding: 20px;
+}
+.footer-area p {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+.scrollTop {
+  background-color: #63bc63;
+  border-radius: 3px;
+  bottom: 10px;
+  opacity: 0;
+  padding: 6px 12px;
+  position: fixed;
+  right: 3%;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+}
+
+
+.scrollTop a i.fa {
+    font-size: 23px;
+}
+
+
+.related-post a {
+  display: block;
+  float: left;
+  width: 282px;
+}
+
+
+.personal-imformation p {
+  line-height: 30px;
+}
+
+#sticker{
+	width: 100%;
+}
+.stick{
+	position: fixed;
+	top: 0px;
+	z-index: 999999999;
+}
+
